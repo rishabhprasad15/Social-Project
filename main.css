@@ -31,7 +31,7 @@ height: 600px;
 
 
 #header .white-text{
-	color:black;
+	color:white;
 }
 #header ul .glyphicon {
     font-size: 20px;
@@ -109,6 +109,7 @@ ul> .glyphicon{
 }
 body{
   margin-bottom:70px;
+  background-color: #e9ebee;
 }
 .form-control .btn
 {
@@ -142,4 +143,7 @@ body{
 }
 #main::-webkit-scrollbar {
     display: none;
+}
+.comment {
+    margin: 0;
 }

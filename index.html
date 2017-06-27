@@ -31,7 +31,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand white-text" href="#" id="nav_brand">Friendly</a>
+      <a class="navbar-brand white-text" href="#" id="nav_brand">  <img src="icons/facebook_logo.png" width="32" height="32" style="border-radius:50%"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,7 +39,7 @@
 
       <form class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search Friendly" size="60" height="25">
+          <input type="text" class="form-control" placeholder="Search Friendly" size="60" height="30">
           <button type="submit"  class="btn btn-default"id="search-button" ><span class="glyphicon glyphicon-search" aria-hidden="true" ></span></button>
         </div>
       </form>
@@ -53,7 +53,7 @@
         <li title="Messages"><a class="white-text" href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge">6</span></span></a></li>
         <li title="Notifications" ><a class="white-text" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge">6</span></span></a></li>
 
-        <li title="Quick Help" ><a class="white-text" href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+        <li title="Quick Help" style="border-left:1px solid white"><a class="white-text" href="#" ><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
         <li class="dropdown ">
           <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -79,17 +79,17 @@
 </header>
   <div class="container-fluid font-color" id="wrapper">
         <div class="row">
-          <div class="col-md-3 "><div id="menu">
+          <div class="hidden-xs col-sm-4 col-md-3"><div id="menu">
             <ul class="nav nav-stacked nav-pills ">
               <li role="presentation" ><a href="#"><span class="font-color">Rishabh Prasad</span></a></li>
-            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt white-text icon-padding" aria-hidden="true"></span>News Feed<span class="badge pull-right ">6</span></span></a></li>
-              <li role="presentation" title="Messenger"><a href="#"><span class="glyphicon glyphicon-envelope white-text icon-padding" aria-hidden="true"></span>Messenger<span class="badge">20</span></a></li>
+              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt white-text icon-padding" aria-hidden="true"></span>News Feed<span class="badge  ">6</span></span></a></li>
+              <li role="presentation" title="Messenger"><a href="#"><span class="glyphicon glyphicon-envelope white-text icon-padding" aria-hidden="true"></span>Messenger<span class="badge ">20</span></a></li>
             </ul>
             <ul class="nav nav-stacked nav-pills ">
               <p class="list-heading">Shortcuts</p>
-              <li role="presentation" ><a href="#"><span class="glyphicon glyphicon-blackboard white-text icon-padding" aria-hidden="true">AcadView<span class="badge pull-right" >2</span></a></li>
-              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-user white-text icon-padding" aria-hidden="true">Front-End Group<span class="badge" >30</span></a></li>
-              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-plus white-text icon-padding" aria-hidden="true">Bootstrap<span class="badge " id="right">102</span></a></li>
+              <li role="presentation" ><a href="#"><span class="glyphicon glyphicon-blackboard white-text icon-padding" aria-hidden="true">AcadView<span class="badge pull" >2</span></a></li>
+              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-user white-text icon-padding" aria-hidden="true">Front-End Group<span class="badge pull" >30</span></a></li>
+              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-plus white-text icon-padding" aria-hidden="true">Bootstrap<span class="badge " >102</span></a></li>
             </ul>
             <ul class="nav nav-stacked nav-pills ">
               <p class="list-heading">Explore</p>
@@ -99,11 +99,25 @@
             </ul>
 
             </div></div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-sm-8 col-md-6">
               <div id="main">
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                     <h3 class="panel-title"><a href="#">Rajat Chakraborty</a></h3>
+                    <div class="media panel-title">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object" src="IMG_20150909_135041.jpg" width="40" height="40">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <p> <span><a href="#">Rohan Bhatt</a></span> posted a quote </p>
+                            <div>
+                                <small>
+                                    <span>11hr  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
                   </div>
                  <div class="panel-body">
                    <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
@@ -114,18 +128,48 @@
                  <div class="panel-footer">
                    <div class="media">
                       <div class="media-left">
-                        <a href="#"><img class="media-object" src="http://via.placeholder.com/32x32" alt="dp"></a>
+                        <a href="#"><img class="media-object" src="download.jpg" alt="dp" style="width:32px; height:32px;"></a>
                       </div>
                       <div class="media-body">
-                          <p>this is amazing</p>
+                          <p class="comment"><span><a href="#">Ravi Arya</a></span> So True</p>
+                          <small>
+                             <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                          </small>
 
                       </div>
-                 </div>Add a comment
+                 </div>
+                 <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object" src="kristy.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                    </div>
+                    <div class="media-body">
+                        <p class="comment"><span><a href="#">Shreya Wadhwa</a></span> Haha</p>
+                        <small>
+                           <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+
+                    </div>
+               </div>
+                 <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
                </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                   <h3 class="panel-title"><a href="#">Rishabh Prasad</a></h3>
+                  <div class="media panel-title">
+                      <div class="media-left">
+                          <a href="#">
+                              <img class="media-object" src="IMG_20150909_135041.jpg" width="40" height="40">
+                          </a>
+                      </div>
+                      <div class="media-body">
+                          <p> <span><a href="#">Prakriti Bawa</a></span> posted a quote </p>
+                          <div>
+                              <small>
+                                  <span>2d  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                              </small>
+                          </div>
+                      </div>
+                  </div>
                 </div>
                <div class="panel-body">
                  <div>
@@ -138,11 +182,51 @@
                        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
                  </div>
                </div>
-               <div class="panel-footer"></div>
+               <div class="panel-footer">
+                 <div class="media">
+                    <div class="media-left">
+                      <a href="#"><img class="media-object" src="download.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                    </div>
+                    <div class="media-body">
+                        <p class="comment"><span><a href="#">Ravi Arya</a></span> True</p>
+                        <small>
+                           <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                        </small>
+
+                    </div>
+               </div>
+               <div class="media">
+                  <div class="media-left">
+                    <a href="#"><img class="media-object" src="kristy.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                  </div>
+                  <div class="media-body">
+                      <p class="comment"><span><a href="#">Shreya Wadhwa</a></span> Deep</p>
+                      <small>
+                         <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                      </small>
+
+                  </div>
+             </div>
+               <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+             </div>
             </div>
             <div class="panel panel-default">
               <div class="panel-heading">
-                 <h3 class="panel-title"><a href="#">Giffy</a></h3>
+                <div class="media panel-title">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="IMG_20150909_135041.jpg" width="40" height="40">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p> <span><a href="#">Rohan Bhatt</a></span> posted a quote </p>
+                        <div>
+                            <small>
+                                <span>11hr  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                            </small>
+                        </div>
+                    </div>
+                </div>
               </div>
              <div class="panel-body">
                <div class="image-post">
@@ -152,11 +236,51 @@
                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
                </div>
              </div>
-             <div class="panel-footer">Panel footer</div>
+             <div class="panel-footer">
+               <div class="media">
+                  <div class="media-left">
+                    <a href="#"><img class="media-object" src="download.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                  </div>
+                  <div class="media-body">
+                      <p class="comment"><span><a href="#">Ratika Gupta</a></span> Funny</p>
+                      <small>
+                         <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                      </small>
+
+                  </div>
+             </div>
+             <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object" src="kristy.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                </div>
+                <div class="media-body">
+                    <p class="comment"><span><a href="#">Niti Singh</a></span> Hilarious</p>
+                    <small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                    </small>
+
+                </div>
+           </div>
+             <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+           </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading">
-               <h3 class="panel-title"><a href="#">Youtube</a></h3>
+              <div class="media panel-title">
+                  <div class="media-left">
+                      <a href="#">
+                          <img class="media-object" src="IMG_20150909_135041.jpg" width="40" height="40">
+                      </a>
+                  </div>
+                  <div class="media-body">
+                      <p> <span><a href="#">Rohan Bhatt</a></span> posted a quote </p>
+                      <div>
+                          <small>
+                              <span>11hr  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                          </small>
+                      </div>
+                  </div>
+              </div>
             </div>
            <div class="panel-body">
              <!-- 16:9 aspect ratio -->
@@ -167,29 +291,220 @@
                    <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
              </div>
            </div>
-           <div class="panel-footer">Panel footer</div>
-        </div>
+           <div class="panel-footer">
+             <div class="media">
+                <div class="media-left">
+                  <a href="#"><img class="media-object" src="download.jpg" alt="dp" style="width:32px; height:32px;"></a>
+                </div>
+                <div class="media-body">
+                    <p class="comment"><span><a href="#">Mayuri Garg</a></span> Nokia is back</p>
+                    <small>
+                       <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                    </small>
 
+                </div>
+           </div>
+           <div class="media">
+              <div class="media-left">
+                <a href="#"><img class="media-object" src="kristy.jpg" alt="dp" style="width:32px; height:32px;"></a>
+              </div>
+              <div class="media-body">
+                  <p class="comment"><span><a href="#">Veena Kumari</a></span> Legend Returns</p>
+                  <small>
+                     <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>
+                  </small>
 
               </div>
-            </div>
-          <div class="col-md-3"><div id="sidebar">
-            <ul class="list-group">
-                            <li class="list-group-item list-group-item-success" style="background-color:white;"><span class="glyphicon glyphicon-gift" aria-hidden="true" style="margin-right:10px;"></span><a href="#">MS Dhoni's </a>Birthday is today</li>
-                        </ul>
-                        <ul class="list-group">
-                            <li class="list-group-item list-group-item-success" style="background-color:white; ">Trending<a href="#"><img src="icons/trending.png" height="20" width="20" style="margin-left:35px;">
-                                <img src="icons/politics.jpeg" height="20" width="20" style="margin:0px 3px;"><img src="icons/scie_tech.jpeg" height="20" width="20" style="margin:0px 3px;"><img src="icons/sports.png" height="20" width="20" style="margin:0px 3px;"><img src="icons/entertainment.png" height="20" width="20" style="margin:0px 3px;"></a>
-                            </li>
-                            <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; border-bottom:none;"><a href="#"> American Health Care Act</a> <div style="color:black ;text-align:justify"><small>The American Health Care Act of 2017 (H.R. 1628) (renamed in the draft Senate version as the Better Care Reconciliation Act of 2017....</small></div></li>
-                            <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; border-bottom:none;"><a href="#"> Ram Nath Kovind</a> <div style="color:black;text-align:justify"><small>Ram Nath Kovind (born 1 October 1945) is an Indian politician and the NDA candidate for President of India. Kovind is a Dalit leader and member of the ...</small></div></li>
-                            <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; "><a href="#"> Badminton-Ausrtalian Open</a> <div style="color:black;text-align:justify"><small>Kidambi Srikanth continued his brilliant run in the Australian Open Super Series and made it to the semi-final of the event ...</small></div> </li>
-                        </ul>
-          </div></div>
+         </div>
+           <input style="width: 100%;margin-top: 15px;" placeholder="Write a comment...">
+         </div>
         </div>
-      </div>
 
-<div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+              <div class="media panel-title">
+                  <div class="media-left">
+                      <a href="#">
+                          <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p200x200/16996258_1563379883687103_301263860873690827_n.jpg?oh=1fbb886a72bec338845b2720303ab2ce&oe=59C6EF8F"  height="40" width="40">
+                      </a>
+                  </div>
+                  <div class="media-body">
+                      <p> <span><a href="#">Friends is Awesome </a></span>shared FRIENDS (TV Show)'s video.  </p>
+                      <div>
+                          <small>
+                              <span>17hr  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                          </small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="panel-body ">
+              <div class="embed-responsive embed-responsive-4by3" style="padding-bottom:250px;">
+                  <iframe class="embed-responsive-item" src="https://qph.ec.quoracdn.net/main-qimg-54e47bc888448b2eb00ecdf05abf7453" ></iframe>
+
+              </div>
+              <div>
+                  <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                  <span class="pull-right"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share </span>
+              </div>
+          </div>
+          <div class="panel-footer c">
+              <div class="media">
+                  <div class="media-left">
+                      <a href="#">
+                          <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c2.0.160.160/p160x160/18119414_1927937344102611_4530719867692108542_n.jpg?oh=ef5e09253d261ba045f5ef87f62b419b&oe=59D0DBE2" height="32" width="32">
+                      </a>
+                  </div>
+                  <div class="media-body">
+                      <p class="comment"> <span><a href="#">Rishabh Prasad</a></span> Senfield was even better.</p>
+                      <div>
+                           <span> <a href="#"><small>Like </small></a></span> <span> <a href="#"><small>Comment</small> </a></span>
+                      </div>
+                  </div>
+              </div>
+              <div class="media">
+                  <div class="media-left">
+                      <a href="#">
+                          <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/13331143_547968535328122_6013262308278977428_n.jpg?oh=ec0df3f4fca73370d72b5dc9a9f63af2&oe=59CD942B" height="32" width="32">
+                      </a>
+                  </div>
+                  <div class="media-body">
+                      <p class="comment"> <span><a href="#">Saurabh Sagar </a></span> Senfield is oldschool,how i met your mother is build on the same lines </p>
+                      <div>
+                        <span> <a href="#"><small>Like </small></a></span> <span> <a href="#"><small>Comment</small> </a></span>
+                      </div>
+                  </div>
+              </div>
+              <div><span><input placeholder="Write a comment..." style="width:100%;margin-top: 15px;"></span></div>
+          </div>
+      </div>
+              <!-- fifth post -->
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <div class="media panel-title">
+                  <div class="media-left">
+                      <a href="#">
+                          <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/13331143_547968535328122_6013262308278977428_n.jpg?oh=ec0df3f4fca73370d72b5dc9a9f63af2&oe=59CD942B" height="40" width="40">
+                      </a>
+                  </div>
+                  <div class="media-body">
+                      <p> <span><a href="#"> Saurabh Sagar</a></span> Share Hubble Telescope pictures </p>
+                      <div>
+                          <small>
+                              <span>2yr  </span> <a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+                          </small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="panel-body">
+              <div>
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+
+        <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                      <div class="item active">
+                          <img src="icons/space4.jpg"  height="200" width="520">
+            <!-- <div class="carousel-caption">
+              <p>this is image 1</p>
+            </div> -->
+                      </div>
+                      <div class="item">
+                          <img src="icons/space5.jpg"  height="200" width="520">
+            <!-- <div class="carousel-caption">
+              <p>this is image 2</p>
+            </div> -->
+                      </div>
+                      <div class="item">
+                          <img src="icons/space6.jpg" height="200" width="520">
+            <!-- <div class="carousel-caption">
+              <p>this is image 3</p>
+            </div> -->
+                      </div>
+                  </div>
+        <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="false"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <div style="margin-top:5px;">
+                      <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                      <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+                      <span class="pull-right"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share </span>
+                  </div>
+              </div>
+              <div class="panel-footer c">
+                  <div class="media">
+                      <div class="media-left">
+                          <a href="#">
+                              <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c2.0.160.160/p160x160/18119414_1927937344102611_4530719867692108542_n.jpg?oh=ef5e09253d261ba045f5ef87f62b419b&oe=59D0DBE2" height="32" width="32">
+                          </a>
+                      </div>
+                      <div class="media-body">
+                          <p class="comment"><span><a href="#">Shashank Kumar</a></span> How had you done that? </p>
+                          <div>
+                              <span> <a href="#"><small>Like </small></a></span> <span> <a href="#"><small>Comment</small> </a></span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="media">
+                      <div class="media-left">
+                          <a href="#">
+                              <img class="media-object" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/13331143_547968535328122_6013262308278977428_n.jpg?oh=ec0df3f4fca73370d72b5dc9a9f63af2&oe=59CD942B" height="32" width="32">
+                          </a>
+                      </div>
+                      <div class="media-body">
+                          <p class="comment"> <span><a href="#">Saurabh Sagar </a></span> Nothing Great..just used  "Bootstrap Javascript Carousel" </p>
+                          <div>
+                              <span> <a href="#"><small>Like </small></a></span> <span> <a href="#"><small>Comment</small> </a></span>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div><span><input placeholder="Write a comment..." style="width:100%;margin-top: 15px;"></span></div>
+              </div>
+
+          </div>
+
+      </div>
+<!-- load button -->
+      <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off" style="width:100%;margin-left:0px ;margin-bottom:1px;padding-top:2px;">
+          click to load more stories
+      </button>
+  </div>
+
+  </div>
+
+  <div class="hidden-xs hidden-sm col-md-3">
+    <div id="sidebar">
+      <ul class="list-group">
+          <li class="list-group-item list-group-item-success" style="background-color:white;"><span class="glyphicon glyphicon-gift" aria-hidden="true" style="margin-right:10px;"></span><a href="#">MS Dhoni's </a>Birthday is today</li>
+      </ul>
+      <ul class="list-group">
+          <li class="list-group-item list-group-item-success" style="background-color:white; ">Trending<a href="#"><img src="icons/trending.png" height="20" width="20" style="margin-left:35px;">
+              <img src="icons/politics.jpeg" height="20" width="20" style="margin:0px 3px;"><img src="icons/scie_tech.jpeg" height="20" width="20" style="margin:0px 3px;"><img src="icons/sports.png" height="20" width="20" style="margin:0px 3px;"><img src="icons/entertainment.png" height="20" width="20" style="margin:0px 3px;"></a>
+          </li>
+          <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; border-bottom:none;"><a href="#"> American Health Care Act</a> <div style="color:black ;text-align:justify"><small>The American Health Care Act of 2017 (H.R. 1628) (renamed in the draft Senate version as the Better Care Reconciliation Act of 2017....</small></div></li>
+          <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; border-bottom:none;"><a href="#"> Ram Nath Kovind</a> <div style="color:black;text-align:justify"><small>Ram Nath Kovind (born 1 October 1945) is an Indian politician and the NDA candidate for President of India. Kovind is a Dalit leader and member of the ...</small></div></li>
+          <li class="list-group-item list-group-item-success" style="background-color:white;border-top:none; "><a href="#"> Badminton-Ausrtalian Open</a> <div style="color:black;text-align:justify"><small>Kidambi Srikanth continued his brilliant run in the Australian Open Super Series and made it to the semi-final of the event ...</small></div> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
       <ul class="nav nav-pills pull-right">
             <li role="presentation "><a href="# ">About Us</a></li>
             <li role="presentation "><a href="#top ">Go To Top</a></li>
