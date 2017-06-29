@@ -16,17 +16,17 @@ height: 600px;
 }
 
 #main,
-#menu,
-#sidebar {
+#menu,#sidebar {
   background-color: #e9ebee;
 }
 
 #header {
     background-color: #4267b2;
     color: white;
-    height:10px;
+    min-height:43px !important;
+    max-height:43px !important;
     position:navbar-fixed-top;
-    margin-bottom:25px;
+
 }
 
 
@@ -48,9 +48,10 @@ height: 600px;
   }
   #search-button{
     /*font-size: :30px;*/
-    height: 25px;
+    height: 26px;
     padding-top: 3px;
     padding-right: -44px;
+    padding-bottom:3px;
   }
 }
 //child selector
@@ -61,8 +62,8 @@ ul> .glyphicon{
 	background-image:url("F:\photos\shimla&chandigarh college trip\IMG_20160113_173532")
 }
 #header .profile-img{
-    margin-top:10px;
-    margin-right:-10px;
+    margin-top:0px;
+    margin-right:20px;
     float: left;
     background-image: url("F:\edu\acadview\project1\IMG_20160113_173532.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
 
@@ -73,7 +74,7 @@ ul> .glyphicon{
     padding: 20px 15px 0 15px;
 }
 #search-button{
-  margin-left:-44px;
+  margin-left:-8px;
 }
 #menu a{
   color:#1d2129;
@@ -138,12 +139,61 @@ body{
 .video-post{
   margin-bottom:15px;
 }
-#main {
+#main,#sidebar {
     overflow: auto;
 }
 #main::-webkit-scrollbar {
     display: none;
 }
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
 .comment {
     margin: 0;
+}
+.spacing{
+  height: 30px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 10px !important;
+  padding-right:15px !important;
+  width:45px !important;
+  margin-top:3px;
+}
+.dropdown{
+    height: 28px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 15px !important;
+}
+.bar-property
+{
+
+    padding-top: 3px !important;
+    height: 26px !important;
+    width: 436px !important;
+    padding-bottom:3px !important;
+
+}
+#main .panel-heading{
+   height:61px ;
+   background-color:white;
+   border:0px;
+
+}
+#main .panel-footer{
+  font-size:13px;
+}
+#main .shaded-font{
+  color:#90949c;
+}
+#main .border-bottom{
+  border-bottom:1px solid #e5e5e5 !important;
+}
+.reply-list {
+    margin-left: 32px;
+    margin-top: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #e5e5e5;
 }
